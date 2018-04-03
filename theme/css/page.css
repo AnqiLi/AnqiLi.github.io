@@ -1,12 +1,12 @@
 .title {
-    font-weight: 700;
-    font-size: 21px;
+    font-weight: 600;
+    font-size: 14px;
 /*    background-position: 0 26px;*/
     line-height: 1;
 }
 
 .attribute table, th{
-    font-size: 18px;
+    font-size: 14px;
     font-style: italic;
     font-weight: 400;
     line-height: 1.5;
@@ -41,15 +41,11 @@
 }
 
 .projects {
-    margin-bottom: 20px;
-}
-
-.projects li {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .projects th, td {
-    padding: 18px 0px 18px 18px;
+    padding: 0px 0px 18px 18px;
 }
 
 .projects img {
@@ -61,10 +57,52 @@
     font-weight: 700;
 }
 
-.contact {
-    margin-bottom: 0px;
+.current img{
+    width: 750px;
 }
 
-.contact li {
-    margin-bottom: 0px;
+@media (max-width: 850px) {
+    .current img {
+        width: 600px;
+    }
+}
+
+@media (max-width: 650px) {
+    .current img {
+        width: 400px;
+    }
+}
+
+@media (max-width: 500px) {
+    .current img {
+        width: 400px;
+        margin: 0 50px;
+    }
+}
+
+.current a{
+    color: #333;
+}
+
+.current a:hover{
+    color: #EAAA00;
+}
+
+.honors ul{
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+.honors li{
+    margin-bottom: 10px;
+}
+
+.year{
+    float: right;
+}
+
+.honordisp{
+    font-style: italic;
+    color: #666;
+    font-size: 14px;
 }

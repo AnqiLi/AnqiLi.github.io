@@ -75,6 +75,7 @@ h1, h2 {
 h1 {
     font-size: 24px;
     margin: -20px auto;
+    border-left: 5px solid #EAAA00;
     padding: 0;
 }
 
@@ -82,13 +83,13 @@ h2 {
     font-size: 20px;
     padding: 10px 30px 10px 25px;
     margin: 50px -30px 20px -30px;
-    border-left: 5px solid #eee;
+    border-left: 5px solid #EAAA00;
     line-height: 1;
 }
 
 .page-title {
     padding: 15px 10px 15px 23px;
-    border-left: 7px solid #eee;
+    border-left: 7px solid #EAAA00;
     margin: 20px -30px 30px -30px;
     line-height: 1;
 }

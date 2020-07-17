@@ -23,16 +23,16 @@ a {
     background-size: 2px 2px;
     background-position: 0 20px;
     text-decoration: none;
-    color: #003057;
+    color: #4B2E83;
 }
 
 a:hover {
-    color: #EAAA00;
+    color: #85754D;
     text-decoration: none;
 }
 
 a:active {
-    color: #EAAA00;
+    color: #85754D;
     text-decoration: none;
 }
 
@@ -69,13 +69,13 @@ th, td {
 h1, h2 {
     font-family: 'Open Sans',Geneva,Verdana,sans-serif;
     font-weight: 700;
-    color: #003057;
+    color: #4B2E83;
 }
 
 h1 {
     font-size: 24px;
     margin: -20px auto;
-    border-left: 5px solid #EAAA00;
+    border-left: 5px solid #85754D;
     padding: 0;
 }
 
@@ -83,13 +83,13 @@ h2 {
     font-size: 20px;
     padding: 10px 30px 10px 25px;
     margin: 50px -30px 20px -30px;
-    border-left: 5px solid #EAAA00;
+    border-left: 5px solid #85754D;
     line-height: 1;
 }
 
 .page-title {
     padding: 15px 10px 15px 23px;
-    border-left: 7px solid #EAAA00;
+    border-left: 7px solid #85754D;
     margin: 20px -30px 30px -30px;
     line-height: 1;
 }
@@ -343,11 +343,11 @@ blockquote {
 }
 
 .soon:hover{
-    color: #EAAA00;
+    color: #85754D;
 }
 
 h3{
-    color: #003057;
+    color: #4B2E83;
     margin-top: 30px;
     margin-bottom: 10px;
     font-size: 19px;

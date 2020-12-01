@@ -10,6 +10,8 @@
 
 <link rel="stylesheet" href="./theme/css/base.css" type="text/css" />
 <link rel="stylesheet" href="./theme/css/page.css" type="text/css" />
+<link rel="stylesheet" href="./theme/academicons-1.9.1/css/academicons.min.css" type="text/css" />
+
 </head>
 <body>
 
@@ -19,13 +21,13 @@
     <table>
         <tr>
             <td>
-                <img src="./theme/images/anqi_icon.png" alt="me">
+                <img src="./theme/images/anqi_li.png" alt="me">
             </td>
             <td>
                 <table class="plain">
                     <tr>
                         <td></td>
-                        <td style="font-size: 32px;font-weight: 800;">
+                        <td class=name>
                         <span style="font-size: 44px;">A</span><span>NQI </span><span style="font-size: 44px;">L</span><span>I</span>
                         </td>
                     </tr>
@@ -34,7 +36,7 @@
                             <a href="https://www.cs.washington.edu" target="_blank" <i class='fa fa-address-book'></i></a>
                         </td>
                         <td>
-                            <a href="https://www.cs.washington.edu" target="_blank">Bill & Melinda Gates Center (CSE2) 252</br>
+                            <a href="https://www.cs.washington.edu" target="_blank">Bill & Melinda Gates Center (CSE2) 252-7</br>
                             University of Washington</br>
                             Seattle, WA, 98195</a>
                         </td>
@@ -52,7 +54,15 @@
                             <a href="./docs/Anqi_Li_CV.pdf" target="_blank"><i class="fa fa-file"></i></a>
                         </td>
                         <td>
-                            <a href="./docs/Anqi_Li_CV.pdf" target="_blank">CV (updated July 2020)</a>
+                            <a href="./docs/Anqi_Li_CV.pdf" target="_blank">CV (updated November 2020)</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center;">
+                            <a href="https://scholar.google.com/citations?user=HG08FCMAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar ai-2x"></i></a>
+                        </td>
+                        <td>
+                            <a href="https://scholar.google.com/citations?user=HG08FCMAAAAJ&hl=en" target="_blank">Google Scholar</a>
                         </td>
                     </tr>
                 </table>
@@ -61,17 +71,15 @@
     </table>
     </div>
 
-    <h1 class="page-title">About</h1>
+    <h2>About</h2>
 
     <p>
-        I am currently a PhD student in the <u><a href="https://www.cs.washington.edu" target="_blank">Paul G. Allen School of Computer Science and Engineering (CSE)</a></u> at University of Washington, working with professor <u><a href="https://homes.cs.washington.edu/~bboots/" target="_blank">Byron Boots</a></u> and Georgia Tech professor <u><a href="http://magnus.ece.gatech.edu/" target="_blank">Magnus Egerstedt</a></u>. My research aims to bridge the gap between robotics research and applications by exploiting tools from machine learning and control theory. Specific research topics include formal safety and performance guarantees for robotic systems, learning for modeling and control, and developing distributed control algorithms for multi-agent systems. My research is supported by the <u><a href="https://www.nvidia.com/en-us/research/graduate-fellowships/" target="_blank">NVIDIA Fellowship</a></u>. 
-
-
-
+        I am currently a PhD student in the <u><a href="https://www.cs.washington.edu" target="_blank">Paul G. Allen School of Computer Science and Engineering (CSE)</a></u> at the University of Washington, working with professor <u><a href="https://homes.cs.washington.edu/~bboots/" target="_blank">Byron Boots</a></u> and Georgia Tech professor <u><a href="http://magnus.ece.gatech.edu/" target="_blank">Magnus Egerstedt</a></u>. My research aims to make robot learning safe and sample efficient by using complementary tools from control theory and machine learning. I am interested in encoding domain knowledge and problem structure, which are readily available in many robotics problems, using control theoretical tools so that policy learning can be done in a safe space and in an efficient manner.
+        My specific research topics include safe reinforcement learning, learning stable motion policies, learning from human demonstrations, and planning & control with formal guarantees. My research is supported by the <u><a href="https://www.nvidia.com/en-us/research/graduate-fellowships/" target="_blank">NVIDIA Graduate Fellowship</a></u>.
     </p>
 
     <p>
-        I moved to University of Washington from Georgia Institute of Technology, where I was a Robotics PhD student. I received my Master's degree in Robotics from Carnegie Mellon University, where I was advised by professor <u><a href="https://www.ri.cmu.edu/ri-faculty/katia-sycara/" target="_blank">Katia Sycara</a></u>. Before that I got my Bachelor's degree in Automation from Zhejiang University, China. 
+        I moved to the University of Washington from the Georgia Institute of Technology, where I was a Robotics PhD student. I received my Master's degree in Robotics from Carnegie Mellon University, where I was advised by professor <u><a href="https://www.ri.cmu.edu/ri-faculty/katia-sycara/" target="_blank">Katia Sycara</a></u>. Before that I got my Bachelor's degree in Automation from Zhejiang University, China. I spent two wonderful summers at NVIDIA Research working with <u><a href="https://research.nvidia.com/person/nathan-ratliff" target="_blank">Nathan Ratliff</a></u> and <u><a href="https://homes.cs.washington.edu/~fox/" target="_blank">Dieter Fox</a></u>.
     </p>
 
     <div class="icons">
@@ -100,68 +108,95 @@
     </div>
 
     <h2>Publications</h2>
+
+    <p class=publ>Journal Publication</p>
+    <ol reversed>
+        <li>
+        P. Pierpaoli, <b>A. Li</b>, M. Srinivasan, X. Cai, S. Coogan, and M. Egerstedt, <strong>"A Sequential Composition Framework for Coordinating Multi-robot Behaviors."</strong> <i>IEEE Transactions on Robotics (T-RO), 2020 (to appear) </i>
+        <span class=soon> [ pdf forthcoming ]</span>
+        </li>
+    </ol>
+
+    <p class=publ>Conference Publications</p>
     <p>
     <ol reversed>
         <li>
-        <p>
-        M. A. Rana, <b>A. Li</b>, D. Fox, B. Boots, F. Ramos, and N. Ratliff, <strong>"Euclideanizing Flows: Diffeomorphic Reductions for Learning Stable Dynamical Systems."</strong> <i>Conference on Learning for Dynamics and Control (L4DC)</i>, June, 2020
+        M. A. Rana, <b>A. Li</b>, D. Fox, B. Boots, F. Ramos, and N. Ratliff, <strong>"Euclideanizing Flows: Diffeomorphic Reductions for Learning Stable Dynamical Systems."</strong> <i>Conference on Learning for Dynamics and Control (L4DC), 2020 </i>
         <a href="https://arxiv.org/pdf/2005.13143.pdf" target="_blank">[ <i class='fa fa-file-pdf-o'></i> PDF ]</a>
-        </p>
         </li>
         <li>
-        <p>
-        <b>A. Li</b>, C. Cheng, B. Boots, and M. Egerstedt, <strong>"Stable, Concurrent Controller Composition for Multi-Objective Robotic Tasks"</strong> <i>IEEE Conference on Decision and Control (CDC)</i>, December, 2019 
+        <b>A. Li</b>, C. Cheng, B. Boots, and M. Egerstedt, <strong>"Stable, Concurrent Controller Composition for Multi-Objective Robotic Tasks."</strong> <i>IEEE Conference on Decision and Control (CDC), 2019 </i>
         <a href="https://arxiv.org/pdf/1903.12605.pdf" target="_blank">[ <i class='fa fa-file-pdf-o'></i> PDF ]</a>
-        </p>
         </li>
         <li>
-        <p>
-        M. A. Rana*, <b>A. Li*</b>, H. Ravichandar, M. Mukadam, S. Chernova, D. Fox, B. Boots, and N. Ratliff, <strong>"Learning Reactive Motion Policies in Multiple Task Spaces from Human Demonstrations"</strong> <i>Conference on Robot Learning (CoRL)</i>, November, 2019 
+        M. A. Rana*, <b>A. Li*</b>, H. Ravichandar, M. Mukadam, S. Chernova, D. Fox, B. Boots, and N. Ratliff, <strong>"Learning Reactive Motion Policies in Multiple Task Spaces from Human Demonstrations."</strong> <i>Conference on Robot Learning (CoRL), 2019 </i>
         <a href="http://proceedings.mlr.press/v100/rana20a/rana20a.pdf" target="_blank">[ <i class='fa fa-file-pdf-o'></i> PDF ]</a>
-        </p>
         </li>
         <li>
-        <p>
-        <b>A. Li</b>, M. Mukadam, M. Egerstedt, and B. Boots, <strong>"Multi-Objective Policy Generation for Multi-Robot Systems Using Riemannian Motion Policies"</strong> <i>The International Symposium on Robotics Research (ISRR)</i>, October, 2019 
+        <b>A. Li</b>, M. Mukadam, M. Egerstedt, and B. Boots, <strong>"Multi-Objective Policy Generation for Multi-Robot Systems Using Riemannian Motion Policies."</strong> <i>The International Symposium on Robotics Research (ISRR), 2019 </i>
         <a href="https://arxiv.org/pdf/1902.05177.pdf" target="_blank">[ <i class='fa fa-file-pdf-o'></i> PDF ]</a>
-        </p>
         </li>
         <li>
-        <p>
-        <b>A. Li</b> and M. Egerstedt, <strong>"On the Trade-Off Between Communication and Execution Overhead for Control of Multi-Agent Systems"</strong> <i>American Control Conference (ACC)</i>, July, 2019 
+        <b>A. Li</b> and M. Egerstedt, <strong>"On the Trade-Off Between Communication and Execution Overhead for Control of Multi-Agent Systems"</strong> <i>American Control Conference (ACC), 2019 </i>
         <a href="./docs/ACC2019_0876_Distributed_Optimization.pdf" target="_blank">[ <i class='fa fa-file-pdf-o'></i> PDF ]</a>
-        </p>
         </li>
         <li>
-        <p>
-        <b>A. Li</b>, L. Wang, P. Pierpaoli, and M. Egerstedt, <strong>"Formally Correct Composition of Coordinated Behaviors Using Control Barrier Certificates"</strong> <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)</i>, October, 2018 
+        <b>A. Li</b>, L. Wang, P. Pierpaoli, and M. Egerstedt, <strong>"Formally Correct Composition of Coordinated Behaviors Using Control Barrier Certificates"</strong> <i>IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2018 </i>
         <a href="./docs/IROS2018_937_Behavior_Composition.pdf" target="_blank">[ <i class='fa fa-file-pdf-o'></i> PDF ]</a>
-        </p>
         </li>
         <li>
-        <p>
-        <b>A. Li</b>, W. Luo, S. Nagavalli, and K. Sycara, <strong>"Decentralized Coordinated Motion for a Large Team of Robots Preserving Connectivity and Avoiding Collisions"</strong> <i>IEEE International Conference on Robotics and Automation 2017 (ICRA)</i>, May, 2017 
+        <b>A. Li</b>, W. Luo, S. Nagavalli, and K. Sycara, <strong>"Decentralized Coordinated Motion for a Large Team of Robots Preserving Connectivity and Avoiding Collisions."</strong> <i>IEEE International Conference on Robotics and Automation (ICRA), 2017 </i>
         <!-- <span class="soon" style="color: #800;"> [ <i class='fa fa-file-pdf-o'></i> PDF Coming Soon ]</span> -->
         <a href="https://www.ri.cmu.edu/pub_files/2017/5/ICRA2017_swarm_connectivity_control.pdf" target="_blank">[ <i class='fa fa-file-pdf-o'></i> PDF ]</a>
-        </p>
         </li>
         <li>
-        <p>
-        <b>A. Li</b>, M. Lewis, C. Lebiere, K. Sycara, S. Khatib, Y. Tang, M. Siedsma, and D. Morrison, <strong>"A Computational Model Based on Human Performance for Fluid Management in Critical Care"</strong> <i>IEEE Symposium Series on Computational Intelligence (SSCI)</i>, December, 2016 
-        <a href="http://ri.cmu.edu/pub_files/2016/12/SSCI16_paper_634.pdf" target="_blank">[ <i class='fa fa-file-pdf-o'></i> PDF ]</a>
-        </p>
-        </li>
-        <li>
-        <p>
-        <b>A. Li</b>, W. Luo, S. Nagavalli, N. Chakraborty, and K. Sycara, <strong>"Handling State Uncertainty in Distributed Information Leader Selection for Robotic Swarms"</strong> <i>IEEE Conference on System, Man, and Cybernetics (SMC)</i>, October, 2016 
+        <b>A. Li</b>, W. Luo, S. Nagavalli, N. Chakraborty, and K. Sycara, <strong>"Handling State Uncertainty in Distributed Information Leader Selection for Robotic Swarms."</strong> <i>IEEE Conference on System, Man, and Cybernetics (SMC), 2016 </i>
         <a href="http://ri.cmu.edu/pub_files/2016/10/SMC2016-LiLuoNagavalliChakrabortySycara-Final.pdf" target="_blank">[ <i class='fa fa-file-pdf-o'></i> PDF ]</a>
-        </p>
+        </li>
+        <li>
+        <b>A. Li</b>, M. Lewis, C. Lebiere, K. Sycara, S. Khatib, Y. Tang, M. Siedsma, and D. Morrison, <strong>"A Computational Model Based on Human Performance for Fluid Management in Critical Care."</strong> <i>IEEE Symposium Series on Computational Intelligence (SSCI), 2016 </i>
+        <a href="http://ri.cmu.edu/pub_files/2016/12/SSCI16_paper_634.pdf" target="_blank">[ <i class='fa fa-file-pdf-o'></i> PDF ]</a>
         </li>
     </ol>
     </p>
 
+    <p class=publ>Workshop Paper</p>
+    <ol reversed>
+        <li>
+        <b>A. Li*</b>, C.-A. Cheng*, M. A. Rana, N. Ratliff, and B. Boot, <strong>"RMP<sup>2</sup>: a Differentiable Policy Class for Robotic Systems with Control-Theoretic Guarantees."</strong> <i>Workshop on Robot Learning, Conference on Neural Information Processing Systems (NeurIPS Workshop), 2020</i>
+        <span class=soon> [ pdf forthcoming ]</span>
+        </li>
+    </ol>
 
-    <h2>Honors</h2>
+    <p class=publ>Thesis</p>
+    <ol reversed>
+        <li>
+        <b>A. Li</b>, <strong>"Decentralized Coordinated Motion for Robot Teams Preserving Connectivity and Avoiding Collisions."</strong> <i>Master's Thesis, Carnegie Mellon University, 2017</i>
+        <a href="https://ri.cmu.edu/wp-content/uploads/2017/05/Anqi_MS_Thesis.pdf" target="_blank">[ <i class='fa fa-file-pdf-o'></i> PDF ]</a>
+        </li>
+    </ol>
+
+    <h2>Preprints</h2>
+    <ol reversed>
+        <li>
+        N. Ratliff, K. Van Wyk, M. Xie, <b>A. Li</b>, and M. A. Rana, <strong>"Optimization Fabrics for Behavioral Design."</strong> <i>arXiv:2010.15676 </i><a href="https://arxiv.org/pdf/2010.15676.pdf" target="_blank">[ <i class='fa fa-file-pdf-o'></i> PDF ]</a>
+        </li>
+        <li>
+        M. Xie, K. Van Wyk,  <b>A. Li</b>, M. A. Rana, D. Fox, B. Boots, and N. Ratliff, <strong>"Geometric Fabrics for the Acceleration-based Design of Robotic Motion."</strong> <i>arXiv:2010.14750 </i><a href="https://arxiv.org/pdf/2010.14750.pdf" target="_blank">[ <i class='fa fa-file-pdf-o'></i> PDF ]</a>
+        </li>
+        <li>
+        N. Ratliff, K. Van Wyk, M. Xie, <b>A. Li</b>, and M. A. Rana, <strong>"Generalized Nonlinear and Finsler Geometry for Robotics."</strong> <i>arXiv:2010.14745 </i><a href="https://arxiv.org/pdf/2010.14745.pdf" target="_blank">[ <i class='fa fa-file-pdf-o'></i> PDF ]</a>
+        </li>
+        <li>
+        N. Ratliff, K. Van Wyk, M. Xie, <b>A. Li</b>, and M. A. Rana, <strong>"Optimization Fabrics."</strong> <i>arXiv:2008.02399 </i><a href="https://arxiv.org/pdf/2008.02399.pdf" target="_blank">[ <i class='fa fa-file-pdf-o'></i> PDF ]</a>
+        </li>
+        <li>
+        P. Pierpaoli, H. Ravichandar, N. Waytowich, <b>A. Li</b>, D. Asher, and M. Egerstedt, <strong>"Inferring and Learning Multi-Robot Policies by Observing an Expert."</strong> <i>arXiv:1909.07887 </i><a href="https://arxiv.org/pdf/1909.07887.pdf" target="_blank">[ <i class='fa fa-file-pdf-o'></i> PDF ]</a>
+        </li>
+    </ol>
+
+
+    <h2>Selected Honors</h2>
     <div class="honors">
 <ul>
     <li><span class="title"><a href="https://www.nvidia.com/en-us/research/graduate-fellowships/" target="_blank">NVIDIA Graduate Fellowship</a></span><span class="year">2020</span></br></li>
@@ -169,9 +204,9 @@
     <li><span class="title">The Georgia Robotics Fellowship</span><span class="year">2017</span></li>
     <li><span class="title">ICRA RAS Travel Grant</span><span class="year">2017</span></li>
     <li><span class="title">GSA Conference Funding, CMU</span><span class="year">2016, 2017</span></li>
-    <li><span class="title">The Chu Kochen Scholarship</span><span class="year">2014</span></br>
+    <li><span class="title">The Chu Kochen Scholarship, Zhejiang University</span><span class="year">2014</span></br>
     <span class="honordisp">The Chu Kochen Scholarship is established in memory of late president of the university Dr. Chu Ko-chen. It is widely regarded as the highest honor at Zhejiang University. Each year, 12 (out of more than 20,000) undergraduate students from Zhejiang University are awarded with this scholarship.</span></li>
-    <li><span class="title">The National Scholarship</span><span class="year">2013</span></br></li>
+    <li><span class="title">The National Scholarship, China</span><span class="year">2013</span></br></li>
 </ul>
 </div>
 </div>

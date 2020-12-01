@@ -23,11 +23,11 @@ a {
     background-size: 2px 2px;
     background-position: 0 20px;
     text-decoration: none;
-    color: #4B2E83;
+    color: #333;
 }
 
 a:hover {
-    color: #85754D;
+    color: #4B2E83;
     text-decoration: none;
 }
 
@@ -50,6 +50,7 @@ ul {
 
 li {
     margin: 0;
+    padding-left: 10px;
     margin-bottom: 10px;
     text-align: justify;
 }
@@ -85,21 +86,6 @@ h2 {
     margin: 50px -30px 20px -30px;
     border-left: 5px solid #85754D;
     line-height: 1;
-}
-
-.page-title {
-    padding: 15px 10px 15px 23px;
-    border-left: 7px solid #85754D;
-    margin: 20px -30px 30px -30px;
-    line-height: 1;
-}
-
-.page-title p {
-    margin: 0;
-    padding: 7px 0 0;
-    font-size: 16px;
-    color: #999;
-    font-weight: normal;
 }
 
 pre, code {
@@ -202,9 +188,9 @@ blockquote {
   -o-transition: opacity 0.2s;
   -transition: opacity 0.2s;
 }
-.cssmenu ul li ul li { 
-  background: #666; 
-  display: block; 
+.cssmenu ul li ul li {
+  background: #666;
+  display: block;
   color: #fff;
   text-shadow: 0 -1px 0 #000;
 }
@@ -215,24 +201,6 @@ blockquote {
     color: #fff;
     opacity: 1;
     visibility: visible;
-}
-
-.cssmenu ul li ul li:hover { background: #666; }
-.cssmenu ul li:hover ul {
-  display: block;
-  display: block;
-  opacity: 1;
-  visibility: visible;
-}
-
-.cssmenu a:hover {
-    color: #fff;
-    text-decoration: none;
-}
-
-.cssmenu a:active {
-    color: #fff;
-    text-decoration: none;
 }
 
 
@@ -255,8 +223,9 @@ blockquote {
 }
 
 .topavatar img {
-    width: 200px;
-    height: 200px;
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
 }
 
 .topavatar td{
@@ -267,7 +236,7 @@ blockquote {
 
 .topavatar table{
     width: auto;
-    margin-left:auto; 
+    margin-left:auto;
     margin-right:auto;
     text-align: center;
     /*position: fixed;*/
@@ -282,7 +251,7 @@ blockquote {
     padding: 10px;
     text-align: left;
     vertical-align: top;
-    margin-left:auto; 
+    margin-left:auto;
     margin-right:auto;
 }
 
@@ -292,7 +261,7 @@ blockquote {
 }
 
 .icons img{
-    height: 100px;
+    height: 70px;
 }
 
 .icons table{
@@ -304,7 +273,7 @@ blockquote {
 
 .icons td{
     text-align: center;
-    width: 250px;
+    width: 180px;
 }
 
 
@@ -343,7 +312,7 @@ blockquote {
 }
 
 .soon:hover{
-    color: #85754D;
+    color: #4B2E83;
 }
 
 h3{
@@ -356,4 +325,15 @@ h3{
 h3:hover{
     /*color: #b00;*/
     text-decoration: underline;
+}
+
+.name{
+    color: #4B2E83;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.publ{
+    font-size: 16px;
+    font-weight: 700;
 }
